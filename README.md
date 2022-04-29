@@ -16,7 +16,7 @@
 •	Remove the CoinName column as that info isn't being used in the clustering algorithm. (However, I kept the index information.) 
 
 <p>I created a DataFrame to store all cryptocurrency names.</p>
-![CoinName](https://github.com/JovanHumphrey/Cryptocurrencies/blob/main/images/Deliverable%201_CoinName.JPG)
+![Name](https://github.com/JovanHumphrey/Cryptocurrencies/blob/main/images/Deliverable%201_CoinName.JPG)
 
 <p>I then used the get_dummies method to create variables for Algorithim and ProofType, and stored in a new DataFrame. Lastly I took the features from that new DataFrame and standardized them using the StandardScaler fit_transform() function.</p>
 ![StandardScaler](https://github.com/JovanHumphrey/Cryptocurrencies/blob/main/images/Deliverable%201_StandardScaler.JPG)
